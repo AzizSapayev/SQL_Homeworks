@@ -419,6 +419,9 @@ INSERT INTO Employees (EmployeeID, FirstName, LastName, DepartmentName, Salary, 
 (40, 'Gary', 'Wright', 'Marketing', 87000.00, '2021-01-10', 29, NULL, 'UK');
 
 Select ProductName as name from Products
+    SELECT *
+FROM Customers AS Client;
+
 Select Productname from Products
 Union
  select ProductName from Products_Discounted
